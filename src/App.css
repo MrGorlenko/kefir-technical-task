@@ -1,0 +1,63 @@
+.App {
+	text-align: center;
+	background-image: url("./assets/space-bg.jpg");
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.App::before {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+	content: "";
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 1;
+}
+
+.app-container {
+	max-width: 768px;
+	margin: auto;
+	position: relative;
+	z-index: 2;
+}
+
+.child-comment-wrapper {
+	padding-left: 100px;
+}
+
+.like-wrapper {
+	cursor: pointer;
+}
+
+.comment-avatar {
+	width: 80px;
+	height: 80px;
+	margin-top: -15px;
+}
+
+.button-component {
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #323439;
+	border-radius: 3px;
+}
+
+@media screen and (max-width: 768px) {
+	.app-container {
+		max-width: 90%;
+	}
+
+	.child-comment-wrapper {
+		padding-left: 10%;
+	}
+
+	.comment-avatar {
+		width: 40px;
+		height: 40px;
+	}
+}
