@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kefir-technical-task/static/css/main.959396c1.css",
-    "main.js": "/kefir-technical-task/static/js/main.d54e10ff.js",
+    "main.js": "/kefir-technical-task/static/js/main.76ad3c0b.js",
     "static/media/space-bg.jpg": "/kefir-technical-task/static/media/space-bg.0f6f8c5ac510969febdc.jpg",
     "static/media/han-solo.jpg": "/kefir-technical-task/static/media/han-solo.84705bac66e252072c67.jpg",
     "static/media/heart-red-filled.svg": "/kefir-technical-task/static/media/heart-red-filled.eca7a35e4c4fb07531fe422e3f3bd219.svg",
@@ -10,10 +10,10 @@
     "static/media/heart-black-unfilled.svg": "/kefir-technical-task/static/media/heart-black-unfilled.92dab75ca3c8a8c3a98d4b5431229b4e.svg",
     "index.html": "/kefir-technical-task/index.html",
     "main.959396c1.css.map": "/kefir-technical-task/static/css/main.959396c1.css.map",
-    "main.d54e10ff.js.map": "/kefir-technical-task/static/js/main.d54e10ff.js.map"
+    "main.76ad3c0b.js.map": "/kefir-technical-task/static/js/main.76ad3c0b.js.map"
   },
   "entrypoints": [
     "static/css/main.959396c1.css",
-    "static/js/main.d54e10ff.js"
+    "static/js/main.76ad3c0b.js"
   ]
 }

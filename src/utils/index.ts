@@ -6,7 +6,7 @@ export const fetchAuthors = async () => {
 		const res = await axios.get("/api/authors");
 		return res.data as Author[];
 	} catch (error) {
-		return [];
+		throw new Error("error");
 	}
 };
 
