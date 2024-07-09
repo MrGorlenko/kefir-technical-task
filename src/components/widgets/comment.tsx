@@ -23,7 +23,9 @@ export const CommentWidget = (props: comment) => {
 				<p className='text-start mb-0 text-secondary'>
 					{formatTimeAgo(props.comment.comment.created)}
 				</p>
-				<p className='text-start mb-0 mt-2'>{props.comment.comment.text}</p>
+				<p className='text-start mb-0 mt-2 comment-text'>
+					{props.comment.comment.text}
+				</p>
 			</div>
 
 			<div
