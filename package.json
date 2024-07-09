@@ -46,6 +46,7 @@
         ]
     },
     "devDependencies": {
+        "@babel/plugin-transform-optional-chaining": "^7.24.7",
         "@types/react-helmet": "^6.1.11",
         "eslint": "^8.57.0",
         "eslint-plugin-react": "^7.34.3",
